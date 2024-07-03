@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="w-20 h-[2px] bg-black"></div>
         <div className="arrow-right"></div>
       </div>
-      <div className="text-xl 2xl:text-2xl flex gap-4">
-        <BsSearch />
+      <div className="text-xl 2xl:text-2xl flex gap-4 items-center">
+        <BsSearch className="text-lg 2xl:text-2xl"/>
         <GrMenu />
       </div>
     </div>
