@@ -18,7 +18,7 @@ const Hero = () => {
             HueHarmony
           </div>
           <div className="group cursor-pointer uppercase flex gap-2 justify-center items-center border rounded-full border-black max-w-sm w-full text-center py-2 text-sm 2xl:text-base" onClick={handleNotImplemented}>
-            <span>CLONE YOUR FACE</span>
+            <span className="select-none">CLONE YOUR FACE</span>
             <div className="group-hover:translate-x-2 duration-500 transition-all">
               <RiArrowRightSFill className="text-2xl" />
             </div>
